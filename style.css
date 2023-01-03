@@ -1,0 +1,117 @@
+@import "fonts.css";
+@import "typography.css";
+@import "layout.css";
+@import "responsive.css";
+
+.page-header {
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+   width: 90px;
+   height: 90px;
+   transition: opacity 0.4s;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    font-size: 19px;
+    transition: ease-in-out 0.1s;
+}
+
+.navigation-item:hover {
+    transform: scale(1.1);
+}
+
+.navigation-list {
+    display: flex;
+    gap: 33px;
+}
+
+.container > .banner{
+    max-width: 200px;
+}
+
+.about-group {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    gap: 40px;
+}
+
+.about-group > .about-group-image {
+    max-width: 333px;
+}
+
+.about-group:nth-child(even) {
+    flex-flow: unset;
+}
+
+.footer {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-item {
+    font-size: 12px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+}
+
+.contact-input {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-textarea{
+    padding: 40x;
+}
+
+.contact-button {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #0fa538;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+}
+
+.contact-button:hover{
+    opacity: 1.0;
+}

@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Cousine', monospace;
+    src: url("fonts/Cousine-Bold.ttf") format("ttf"),
+         url("fonts/Cousine-Regular.ttf") format("ttf");
+}

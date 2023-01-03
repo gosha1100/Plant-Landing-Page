@@ -1,0 +1,46 @@
+@import "font.css";
+
+*{
+    font-family: 'Cousine', monospace;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.page-header {
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-style: none;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    transition: opacity 0.4s;
+ }
+
+ .navigation-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container{
+    max-width: 1280px;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;   
+}

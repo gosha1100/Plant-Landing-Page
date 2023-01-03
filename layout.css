@@ -1,0 +1,37 @@
+* {
+    font-family: 'Cousin-Regular', monospace;
+    font-size: 14;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.scroll-section {
+    padding-top: 150px;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: center;
+}
+
+.footer {
+    scroll-snap-align: center;
+}

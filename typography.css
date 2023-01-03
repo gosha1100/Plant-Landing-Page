@@ -1,0 +1,19 @@
+a, h1, h6 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Cousine', monospace;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
